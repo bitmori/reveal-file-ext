@@ -2,11 +2,11 @@
     "name": "reveal",
     "displayName": "Reveal",
     "description": "Show reveal in sidebar/explorer on editor title",
-    "version": "1.2.7",
-    "publisher": "smulyono",
+    "version": "1.2.8",
+    "publisher": "bitmori",
     "repository": {
         "type": "git",
-        "url": "https://github.com/smulyono/reveal-file-ext"
+        "url": "https://github.com/bitmori/reveal-file-ext"
     },
     "engines": {
         "vscode": "^1.20.0"
@@ -36,8 +36,8 @@
                 "command": "reveal.file",
                 "title": "Reveal file in sidebar",
                 "icon": {
-                    "dark": "./icons/16_icon.png",
-                    "light": "./icons/16_icon_light.png"
+                    "dark": "./icons/icon-dark.svg",
+                    "light": "./icons/icon-light.svg"
                 }
             }
         ],
@@ -61,12 +61,12 @@
     "devDependencies": {
         "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
+        "babel-cli": "^6.26.0",
         "babel-preset-env": "^1.6.1",
         "babel-preset-stage-0": "^6.24.1",
         "babel-register": "^6.26.0",
         "eslint": "^4.11.0",
         "typescript": "^2.6.1",
         "vscode": "^1.1.6"
-    },
-    "dependencies": {}
+    }
 }
